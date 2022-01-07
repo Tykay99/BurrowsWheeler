@@ -2,7 +2,7 @@
 
 ## How to run
 
-Utilize the Algs4 Library which can be located at https://algs4.cs.princeton.edu/code/
+Utilize the Algs4 Library (Princeton University Library developed for teaching computer science) which can be located at https://algs4.cs.princeton.edu/code/
 
 ## Purpose
 
