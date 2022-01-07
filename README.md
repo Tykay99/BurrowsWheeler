@@ -12,7 +12,7 @@ To compress a text file. A full description of the programming assignment can be
 
 This method applies the MoveToFront conversion. By representing charachters which appear in succession with smaller integers, it allows Huffman Compression to better take place. 
 
-The typical run-time is n + R  
+The typical run-time is n + R, where n is length of the string and R is the size of the alphabet
 
 ## CircularSuffixArray
 
@@ -22,6 +22,6 @@ The typical run-time is n * log_R (n)
 
 ## BurrowsWheeler
 
-Either transform or inverse transform a given string, using its CircularSuffixArray representation, to increases the likelihood of charachters occuring in close succesion to each other
+Either transform or inverse transform a given string, using its CircularSuffixArray representation, to increases the likelihood of charachters occuring in close succesion to each other. Use key-indes counting to apply algorithm efficiently. 
 
 The typical run-time for transformation is n * log_R (n) and for inverse transformation is n + R
